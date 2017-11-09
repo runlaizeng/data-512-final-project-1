@@ -7,9 +7,20 @@ A recommender system obviously can offer personalized suggestions by analyzing e
 
 Since everyone would conduct the search action on the online reservation website, can we find a way to provide personalized hotel recommendations to travelers just based on the search action? Can we predict the hotel type customer will book? Can we calculate the probabilities that user will book a hotel or not? 
 
-If we can solve these problems, online hotel reservation websites can provide recommendations just based on the search conducts, which will significantly reduce the time cost of choosing a desirable hotel for users.
+## Business Goals
+
+This project has great benefits to online hotel reservation company, which includes:
+
+- Gain complex insights into the customer and product bases. User behavior enables powerful analysis with business reports and dashboards generated on a regular basis. Such reports can predict possible problems so we can avoid them. 
+
+- Reduce the time required to find the hotel and significantly increase the probability of discovering other interest. The result is increased loyalty and satisfaction of users with the web services. 
+
+- Increase profits and conversion rate. Typically, users also interact with more hotels and this behavior leads to increased consumption and higher profits. Also, personalized recommendation encourage users to return, increase the frequency of visits by regular users, reduce churn and increase their lifetime value.
 
 ## Data Acquisition and Processing
+
+### Data Acquisition
+
 The dataset I'm going to use is from [Expedia Hotel Recommendations Competition on Kaggle](https://www.kaggle.com/c/expedia-hotel-recommendations/data).
 
 The dataset is the logs of customer search behavior from Expedia of year 2013 and 2014, including what customers searched for, how they interacted with search results (click/book), whether or not the search result was a travel package. The data is a random selection from Expedia and is not representative of the overall statistics.
@@ -64,16 +75,31 @@ The training dataset includes variables such as:
 
 - hotel_cluster:	ID of a hotel cluster
 
+### Hypothesis
+
 We can analyze data using statistics method and machine learning method. Based on the variables above, some interesting problems and hypothesis we can go deep into are:
 
 Using statistics method:
 - Does booking result and hotel type result change by time?
 - Do different destinations have impact on the final booking result?
-- Will check-in date and check-out date inference the booking hotel type?
+- Will check-in date and check-out date influence the booking hotel type?
 - Does Expedia has more mobile users or desktop users?
+- Does user location influence the book result?
+- If it's true that the more numer of similar events in the context of the same user session, the more possible that the user will book the hotel?
 
 Using machine learning method:
 - Can we predict the hotel type user will book?
 - Can we predict the probability that user will book a certain type of hotels or not?
 
+### Unknows and Dependencies
+
+Since the data is a random selection from Expedia, so it is not representative of the overall statistics, some aggregation method like count and sum would make no sense.
+
+We don't know how does Expedia form the hotel clusters. Expedia has in-house algorithms to form hotel clusters, where similar hotels for a search (based on historical price, customer star ratings, geographical locations relative to city center, etc) are grouped together. These hotel clusters serve as good identifiers to which types of hotels people are going to book, while avoiding outliers such as new hotels that don't have historical data.
+
+Some user specific variables such as user gender, age, income may also have significant influence on the result, but we are lack of such data.
+
+We can't evaluate the impact and performance of the model because companies pursue different goals and objectives. Many companies define and evaluate their key performance indicators (KPIs) on a regular basis simplifying the exact measurement of recommender impact. Such measurement is then realized by AB test, where personalized recommendations are provided to users in a group A whereas group B gets standard recommendations or best-selling content. But we are lack of such data.
+
 ## Human-Centered Aspects
+
