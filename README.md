@@ -21,25 +21,45 @@ The training dataset includes variables such as:
 - posa_continent:	ID of continent associated with site_name	
 
 - user_location_country:	The ID of the country the customer is located	
+
 - user_location_region:	The ID of the region the customer is located	
+
 - user_location_city:	The ID of the city the customer is located	
+
 - orig_destination_distance:	Physical distance between a hotel and a customer at the time of search. A null means the distance could not be calculated	
+
 - user_id:	ID of user
-- is_mobile	1 when a user connected from a mobile device, 0 otherwise	tinyint
-- is_package	1 if the click/booking was generated as a part of a package (i.e. combined with a flight), 0 otherwise
-- channel	ID of a marketing channel	int
-- srch_ci	Checkin date	string
-- srch_co	Checkout date	string
-- srch_adults_cnt	The number of adults specified in the hotel room	int
-- srch_children_cnt	The number of (extra occupancy) children specified in the hotel room	int
-- srch_rm_cnt	The number of hotel rooms specified in the search	int
-- srch_destination_id	ID of the destination where the hotel search was performed	int
-- srch_destination_type_id	Type of destination	int
-- hotel_continent	Hotel continent	int
-- hotel_country	Hotel country	int
-- hotel_market	Hotel market	int
-- is_booking	1 if a booking, 0 if a click	tinyint
-cnt	Numer of similar events in the context of the same user session	bigint
-- hotel_cluster	ID of a hotel cluster
+
+- is_mobile:	1 when a user connected from a mobile device, 0 otherwise	
+
+- is_package:	1 if the click/booking was generated as a part of a package (i.e. combined with a flight), 0 otherwise
+
+- channel:	ID of a marketing channel
+
+- srch_ci:	Checkin date	
+
+- srch_co:	Checkout date	
+
+- srch_adults_cnt:	The number of adults specified in the hotel room
+
+- srch_children_cnt:	The number of (extra occupancy) children specified in the hotel room	
+
+- srch_rm_cnt:	The number of hotel rooms specified in the search	
+
+- srch_destination_id:	ID of the destination where the hotel search was performed	
+
+- srch_destination_type_id:	Type of destination	
+
+- hotel_continent:	Hotel continent	
+
+- hotel_country:	Hotel country	
+
+- hotel_market:	Hotel market	
+
+- is_booking:	1 if a booking, 0 if a click	
+
+- cnt:	Numer of similar events in the context of the same user session
+
+- hotel_cluster:	ID of a hotel cluster
 
 ## Human-Centered Aspects
