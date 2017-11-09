@@ -5,7 +5,9 @@ Online hotel reservation makes travel easier, But a large number of online hotel
 
 A recommender system obviously can offer personalized suggestions by analyzing each user's preference by historical data from his/her account. However, the performance falls sharply when it encounters sparse data, especially meets a cold start user or the user just doesn't use an account. 
 
-Since everyone would conduct the search action on the online reservation website, can we find a way to provide personalized hotel recommendations to travelers just based on the search action? Can we predict the hotel type customer will book? Can we calculate the probabilities that user will book a hotel or not? If we can solve these problems, online hotel reservation websites can provide recommendations just based on the search conducts, which will significantly reduce the time cost of choosing a desirable hotel for users.
+Since everyone would conduct the search action on the online reservation website, can we find a way to provide personalized hotel recommendations to travelers just based on the search action? Can we predict the hotel type customer will book? Can we calculate the probabilities that user will book a hotel or not? 
+
+If we can solve these problems, online hotel reservation websites can provide recommendations just based on the search conducts, which will significantly reduce the time cost of choosing a desirable hotel for users.
 
 ## Data Acquisition and Processing
 The dataset I'm going to use is from [Expedia Hotel Recommendations Competition on Kaggle](https://www.kaggle.com/c/expedia-hotel-recommendations/data).
@@ -61,5 +63,17 @@ The training dataset includes variables such as:
 - cnt:	Numer of similar events in the context of the same user session
 
 - hotel_cluster:	ID of a hotel cluster
+
+We can analyze data using statistics method and machine learning method. Based on the variables above, some interesting problems and hypothesis we can go deep into are:
+
+Using statistics method:
+- Does booking result and hotel type result change by time?
+- Do different destinations have impact on the final booking result?
+- Will check-in date and check-out date inference the booking hotel type?
+- Does Expedia has more mobile users or desktop users?
+
+Using machine learning method:
+- Can we predict the hotel type user will book?
+- Can we predict the probability that user will book a certain type of hotels or not?
 
 ## Human-Centered Aspects
