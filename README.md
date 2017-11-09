@@ -1,4 +1,4 @@
-# Final Project Plan
+# Personized Hotel Recommendation ---- Final Project Plan
 
 ## Background
 Online hotel reservation makes travel easier, But a large number of online hotel information also makes people become unable to follow. Planning a dream vacation or even a weekend escape can be an overwhelming affair. With hundreds, even thousands, of hotels to choose from at every destination, it's difficult to know which will suit our personal preferences. Should we go with an old standby with those pillow mints we like, or risk a new hotel with a trendy pool bar? 
@@ -9,13 +9,19 @@ Since everyone would conduct the search action on the online reservation website
 
 ## Business Goals
 
-This project has great benefits to online hotel reservation company, which includes:
+This project has great benefits to both online hotel reservation companies and users.
+
+For online hotel reservation companies:
 
 - Gain complex insights into the customer and product bases. User behavior enables powerful analysis with business reports and dashboards generated on a regular basis. Such reports can predict possible problems so we can avoid them. 
 
-- Reduce the time required to find the hotel and significantly increase the probability of discovering other interest. The result is increased loyalty and satisfaction of users with the web services. 
+- Increase the probability of discovering other interest. The result is increased loyalty and satisfaction of users with the web services. 
 
 - Increase profits and conversion rate. Typically, users also interact with more hotels and this behavior leads to increased consumption and higher profits. Also, personalized recommendation encourage users to return, increase the frequency of visits by regular users, reduce churn and increase their lifetime value.
+
+For users:
+
+- Reduce the time required to find the hotel and significantly increase the effeciency of discovering other interest.
 
 ## Data Acquisition and Processing
 
@@ -102,4 +108,15 @@ Some user specific variables such as user gender, age, income may also have sign
 We can't evaluate the impact and performance of the model because companies pursue different goals and objectives. Many companies define and evaluate their key performance indicators (KPIs) on a regular basis simplifying the exact measurement of recommender impact. Such measurement is then realized by AB test, where personalized recommendations are provided to users in a group A whereas group B gets standard recommendations or best-selling content. But we are lack of such data.
 
 ## Human-Centered Aspects
+
+- Terms of using datasets. Access to the dataset is subject to the [Kaggle Terms of Use](https://www.kaggle.com/terms) and [Rules](https://www.kaggle.com/c/expedia-hotel-recommendations/rules) of the competition.
+
+- Privacy. Expedia has a privacy policy which informs the users about what information they collect from them, how they use the information, and with whom they will share the information. For details, please see [Expedia Privacy Policy](https://www.expedia.com/p/info-other/privacy-policy.htm).
+
+- Bias of dataset. Since the data is a random selection from Expedia, so it is not representative of the overall statistics, and there would exist bias of the dataset.
+
+- Algorithmic bias. Algorithmic bias would cause users reveiving recommendation of hotels they don't like.
+
+
+
 
