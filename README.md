@@ -89,4 +89,14 @@ data-512-final-project (master)
 |     2015_codes.json
 
 ```
+## References
+
+
+Suicide Statistics — AFSP : https://afsp.org/about-suicide/suicide-statistics/
+
+National Institutes of Health: https://www.nimh.nih.gov/health/statistics/suicide/index.shtml
+
+CDC/National Center for Health Statistics: https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple
+
+Why do more men commit suicide than women? : https://blog.frontiersin.org/2016/09/26/why-do-more-men-commit-suicide-than-women/
 
