@@ -85,8 +85,8 @@ data-512-final-project (master)
 |     License
 |     README.md
 |     Risk Factors for Suicide.ipynb
-|	    2015_data_sample.csv
-|	    2015_codes.json
+|     2015_data_sample.csv
+|     2015_codes.json
 
 ```
 
