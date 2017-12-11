@@ -18,6 +18,8 @@ Besides answering the questions above, I also found some interesting facts of th
 - Young men are more likely to suicide
 - Elder women are less likely to suicide.
 
+In the conclusions of this research, groups of some specific characteristics show a higher likelihood to suicide, such as sex of men, age of young, marital status of single as well as men who are young, men who are single, compared to other groups. What is found in this research can help people pay much more attention on groups who have these characteristics, which can help to prevent suicide more effeciently.
+
 ## License and Terms
 [MIT License](https://opensource.org/licenses/MIT)
 
