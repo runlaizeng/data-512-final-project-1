@@ -21,8 +21,6 @@ Besides answering the questions above, I also found some interesting facts of th
 ## License and Terms
 [MIT License](https://opensource.org/licenses/MIT)
 
-MIT License
-
 Copyright (c) 2017 Becky Wang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
