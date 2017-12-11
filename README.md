@@ -1,9 +1,9 @@
 # 2015 US Mortality Data: Risk Factors for Suicide
 
 ## Abstract
-The value of life is priceless. However, each year, more than 40,000 people die by suicide in United States. Suicide is a major public health concern and is the 10th leading cause of death in the US. 
+The value of life is priceless. However, each year, more than 40,000 people die by suicide in United States. Suicide is a "major public health concern" and is "the 10th leading cause of death in the US".<sup>1</sup> 
 
-Luckily, suicide is preventable. Knowing risk factors for suicide can help prevent suicide. Risk factors for suicide are those characteristics associated with suicide, characteristics that make it more likely that individuals will consider, attempt, or die by suicide. They might not be direct causes.
+Luckily, suicide is preventable. Knowing risk factors for suicide can help prevent suicide. Risk factors for suicide are those "characteristics associated with suicide", characteristics that make it more likely that individuals will consider, attempt, or die by suicide. "They might not be direct causes".<sup>2</sup>
 
 This project explored single factor such as sex, age, marital status and the intersecting combination of them to see are those characteristics associated with suicide.
 
@@ -101,4 +101,5 @@ National Institutes of Health: https://www.nimh.nih.gov/health/statistics/suicid
 CDC/National Center for Health Statistics: https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple
 
 Why do more men commit suicide than women? : https://blog.frontiersin.org/2016/09/26/why-do-more-men-commit-suicide-than-women/
+
 
