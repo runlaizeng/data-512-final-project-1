@@ -20,6 +20,8 @@ Besides answering the questions above, I also found some interesting facts of th
 
 In the conclusions of this research, groups of some specific characteristics show a higher likelihood to suicide, such as sex of men, age of young, marital status of single as well as men who are young, men who are single, compared to other groups. What is found in this research can help people pay much more attention on groups who have these characteristics, which can help to prevent suicide more effeciently.
 
+Since causes leading a human behavior are complex, we should also consider conprehensive effect of mixed factors besides of only considering effect of single factor in human-centered data science. This project informs readers the understanding of human-centered data science by illustrating how to perform analysis on conprehensive effect of mixed factors. Also this project has considered human-centered aspects such as data license, data reproducibility and research limitations. 
+
 ## License and Terms
 [MIT License](https://opensource.org/licenses/MIT)
 
